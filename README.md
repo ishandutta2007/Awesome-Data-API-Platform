@@ -1,6 +1,6 @@
 # Awesome-Data-API-Platform
 
-# Top Data API Platform Tools Ecosystem
+## Top Data API Platform Tools Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Instant REST & GraphQL APIs on Databases, Auto-Generated Data Layers, Backend-as-a-Service Data APIs & Low-Code Backend Platforms*
 **Last updated: August 2026**
