@@ -20,26 +20,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Hasura](https://hasura.io/)**  
-  Instant GraphQL (and REST) APIs on databases with fine-grained authorization, real-time subscriptions, remote schemas, and Actions. Available as open-source engine + managed cloud.
-- **[Supabase](https://supabase.com/)** (Data API)  
-  Open-source Firebase alternative whose core Data API is powered by PostgREST (REST) + pg_graphql. Hosted platform with auth, storage, realtime, and edge functions.
-- **[Xano](https://www.xano.com/)**  
-  No-code / low-code backend platform that generates production REST APIs from a visual data model, with business logic, auth, and background tasks.
-- **[Nhost](https://nhost.io/)**  
-  Open-source GraphQL backend (built on Hasura + PostgreSQL) offering auth, storage, functions, and real-time capabilities with a managed cloud option.
-- **[DreamFactory](https://www.dreamfactory.com/)**  
-  Enterprise-focused platform that auto-generates secure REST APIs from 20+ databases and services, with role-based access control and on-premises options.
-- **[Directus](https://directus.io/)** (Cloud)  
-  Instant REST & GraphQL APIs plus a beautiful admin app on any SQL database. Self-hosted open-source core with commercial cloud offering.
-- **[8base](https://www.8base.com/)**  
-  Low-code GraphQL backend and application platform with managed infrastructure, auth, and front-end tools.
-- **[Appsmith](https://www.appsmith.com/)**  
-  Open-source low-code platform that includes strong API creation, integration, and internal-tool capabilities (often used alongside data APIs).
-- **[Fastgen](https://fastgen.dev/)** (or similar rapid backend tools)  
-  Emerging platforms focused on fast generation of data APIs and backend logic.
-- **[PostgREST](https://postgrest.org/)** (hosted offerings / managed services)  
-  While primarily open-source, various managed and commercial wrappers exist around the PostgREST engine.
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Hasura](https://hasura.io/)** | Instant GraphQL (and REST) APIs on databases with fine-grained authorization, real-time subscriptions, remote schemas, and Actions. Available as open-source engine + managed cloud. | $1.50/active hour | 3 projects, 3M API requests/month, 100MB data passthrough |
+| **[Supabase](https://supabase.com/)** (Data API) | Open-source Firebase alternative whose core Data API is powered by PostgREST (REST) + pg_graphql. Hosted platform with auth, storage, realtime, and edge functions. | $25/month | 2 active projects, 500MB DB storage, 1GB file storage, 50k MAU |
+| **[Xano](https://www.xano.com/)** | No-code / low-code backend platform that generates production REST APIs from a visual data model, with business logic, auth, and background tasks. | $85/month | 1 workspace, 100,000 records, 1GB file storage |
+| **[Nhost](https://nhost.io/)** | Open-source GraphQL backend (built on Hasura + PostgreSQL) offering auth, storage, functions, and real-time capabilities with a managed cloud option. | $25/month | 1 active project, 1GB database storage |
+| **[DreamFactory](https://www.dreamfactory.com/)** | Enterprise-focused platform that auto-generates secure REST APIs from 20+ databases and services, with role-based access control and on-premises options. | $1,500/month | Open Source tier limited to 1 PostgreSQL connector |
+| **[Directus](https://directus.io/)** (Cloud) | Instant REST & GraphQL APIs plus a beautiful admin app on any SQL database. Self-hosted open-source core with commercial cloud offering. | $99/month | No free cloud tier, Self-hosted version has no limits |
+| **[8base](https://www.8base.com/)** | Low-code GraphQL backend and application platform with managed infrastructure, auth, and front-end tools. | $25/month | Limited experimental capacity with community support |
+| **[Appsmith](https://www.appsmith.com/)** | Open-source low-code platform that includes strong API creation, integration, and internal-tool capabilities (often used alongside data APIs). | $15/user/month | Maximum of 5 users on cloud |
+| **[Fastgen](https://fastgen.dev/)** (or similar rapid backend tools) | Emerging platforms focused on fast generation of data APIs and backend logic. | $12/month | Flow runs limited by action blocks executed |
+| **[PostgREST](https://postgrest.org/)** (hosted offerings / managed services) | While primarily open-source, various managed and commercial wrappers exist around the PostgREST engine. | $25/month (via Supabase) | Dependent on host (e.g., Supabase offers 2 free projects limit) |
 
 ## Open-Source GitHub Projects
 - **[Hasura GraphQL Engine](https://github.com/hasura/graphql-engine)**  
